@@ -1,0 +1,62 @@
+body
+{
+    background-color: rgb(110, 200, 250);
+    font-family: courier, monospace;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#main
+{
+    background-color: white;
+    width: 75%;
+    float: left;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+#title
+{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding: transparent;
+    font-family: arial, sans-serif;
+}
+#title:hover
+{
+    background-color: transparent;
+    color: transparent;
+}
+#list
+{
+    float: right;
+    width: 20%;
+    border-left: 1.5px solid blue;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+#footer
+{
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#footer:hover
+{
+    background-color: transparent;
+    color: transparent;
+}
+a:hover
+{
+    background-color: blue;
+    color: white;
+}
+a
+{
+    text-decoration: transparent;
+}
