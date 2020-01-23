@@ -22,14 +22,14 @@ body
     position: fixed;
     width: 100%;
     padding: transparent;
-    font-family: arial, sans-serif;
+    font-family: OCR A Std, monospace;
 }
 #title:hover
 {
     background-color: transparent;
     color: transparent;
 }
-#list
+#panel
 {
     float: right;
     width: 20%;
@@ -59,4 +59,13 @@ a:hover
 a
 {
     text-decoration: transparent;
+}
+.click
+{
+    font-size: 14px;
+    color: black;
+}
+.click:hover
+{
+    color: white;
 }
