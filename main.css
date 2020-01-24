@@ -23,6 +23,7 @@ body
     width: 100%;
     padding: transparent;
     font-family: OCR A Std, monospace;
+    font-size: 2em;
 }
 #title:hover
 {
@@ -51,13 +52,18 @@ body
     background-color: transparent;
     color: transparent;
 }
-a:hover
+section-title
+{
+    width: 100%
+}
+.section:hover
 {
     background-color: blue;
     color: white;
 }
-a
+.section
 {
+    color: black;
     text-decoration: transparent;
 }
 .click
@@ -68,4 +74,24 @@ a
 .click:hover
 {
     color: white;
+}
+.przejdz
+{
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+}
+.przejdz:hover
+{
+    color: blue;
+}
+.photo
+{
+    width: 50%;
+    border: 5px solid black;
+}
+.quote
+{
+    font-size: 20px;
+    padding-left: 30px;
 }
