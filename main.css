@@ -100,3 +100,12 @@ section-title
     padding-left: 30px;
     padding-right: 30px;
 }
+.rank-link
+{
+    color:black;
+    text-decoration:transparent;
+}
+.rank-link:hover
+{
+    text-decoration: underline;
+}
