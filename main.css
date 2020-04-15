@@ -3,22 +3,26 @@ body
     background-color: rgb(110, 200, 250);
     font-family: courier, monospace;
     font-size: 18px;
-    padding-left: 20px;
     padding-right: 20px;
 }
 #main
 {
     
     background-color: white;
-    width: 75%;
+    width: 72%;
     height: 100%;
     float: left;
     padding: 15px;
     padding-left: 20px;
+    margin-left:2%;
     margin-bottom: 50px;
 }
 #title
 {
+    margin-left:-8px;
+    padding-top:5px;
+    margin-top:3px;
+    padding-bottom:5px;
     background-color: blue;
     color: white;
     text-align: center;
@@ -56,9 +60,10 @@ body
     background-color: transparent;
     color: transparent;
 }
-section-title
+#section-title
 {
-    width: 100%
+    margin-left:3%;
+    margin-top:3px;
 }
 .section:hover
 {
