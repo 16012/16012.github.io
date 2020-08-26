@@ -1,0 +1,64 @@
+body
+{
+	background-color: #FFFF00;
+	font-family:sans-serif;
+	font-size: 18px;
+}
+
+#wszystkiego:hover
+{
+	color: blue;
+}
+
+#najlepszego:hover
+{
+	color: red;
+}
+
+#main
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+	height: 80%;
+}
+
+#title
+{
+	height:10%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	font-family: Marker Felt, fantasy;
+}
+
+#section
+{
+	border-bottom: 1px solid grey;
+	width: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 30px;
+}
+
+#sec_title
+{
+	text-align: center;
+	font-family: Courier, monospace;
+}
+
+a
+{
+	color: black;
+	text-decoration: transparent;
+}
+
+a:hover
+{
+	color: blue;
+	text-decoration: underline;
+}
