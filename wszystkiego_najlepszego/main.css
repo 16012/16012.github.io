@@ -49,6 +49,13 @@ body
 {
 	text-align: center;
 	font-family: Courier, monospace;
+	font-size: 2em;
+}
+
+#click_here
+{
+	text-align: center;
+	font-size: 1.2em;
 }
 
 a
