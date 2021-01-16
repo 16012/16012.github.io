@@ -1,0 +1,16 @@
+{
+"companyName": "16012",
+"productName": "CUBE",
+"productVersion": "0.1",
+"dataUrl": "CUBE.data.unityweb",
+"wasmCodeUrl": "CUBE.wasm.code.unityweb",
+"wasmFrameworkUrl": "CUBE.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#808080",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.18f1"
+}
