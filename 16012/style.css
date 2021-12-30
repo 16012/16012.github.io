@@ -19,10 +19,23 @@ body {
 	font-family: courier;
 }
 
-#text {
+.text {
 	margin-left: 10%;
+	margin-right: 10%;
 	margin-bottom:10%;
 	font-family: courier;
+}
+
+#col1 {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#col2 {
+	width: 50%;
+	height: 100%;
+	float: right;
 }
 
 #date {

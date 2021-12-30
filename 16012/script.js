@@ -1,6 +1,9 @@
-var lines;
+var poems;
 var randomNumber;
 var lastRandomNumber;
+var poem;
+var title;
+var text;
 
 $(document.body).ready(function () {
 
@@ -8,18 +11,28 @@ $(document.body).ready(function () {
     url: 'poems.txt'
   }).done(function(content) {
 
-    lines = content.replace(/\r\n|\r/g, '\n').trim().split('\n');
+    poems = content.replace(/\r\n|\r/g, '\n').trim().split('\n\n\n\n');
 
-    if (lines && lines.length) {
+    if (poems && poems.length) {
       $('#butt').on('click', function () {
-        while (randomNumber === lastRandomNumber || randomNumber % 2 == 0) {
-          randomNumber = parseInt((Math.random() * lines.length));
-          if (lines.length === 1) { break; }
+        while (randomNumber === lastRandomNumber) {
+          randomNumber = parseInt((Math.random() * poems.length));
+          if (poems.length === 1) { break; }
         }
         lastRandomNumber = randomNumber;
+        
+        poem = poems[randomNumber];
+        title = poem.split('\n\n')[0];
+        text = poem.split('\n\n').slice(start=1).join('\n\n');
+        
+        $('#title').text(title);
+        
+        if (text.split('\n').length <= 20) {
+          $('#text1').text(text); }
+        else {
+          $('#text1').text(poem).split('\n').slice(end=20).join('\n');
+          $('#text2').text(poem).split('\n').slice(start=21).join('\n'); }
 
-        $('#text').html(lines[randomNumber]);
-        $('#title').html(lines[randomNumber-1]);
       });
     }
   });
