@@ -27,9 +27,10 @@ $(document.body).ready(function () {
       $('#title').text(title);
       
       if (text.split('\n').length <= 20) {
-        $('#text1').html(text); }
+        $('#text1').html(text); 
+        $('#text2').html(''); }
       else {
-        $('#text1').html(poem.split('\n').slice(end=20).join('\n'));
+        $('#text1').html(poem.split('\n').slice(start=0, end=20).join('\n'));
         $('#text2').html(poem.split('\n').slice(start=21).join('\n')); }
     }
 
