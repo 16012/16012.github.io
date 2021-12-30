@@ -13,12 +13,13 @@ $(document.body).ready(function () {
     if (lines && lines.length) {
       $('#butt').on('click', function () {
         while (randomNumber === lastRandomNumber) {
-          randomNumber = parseInt(Math.random() * lines.length);
+          randomNumber = parseInt((Math.random() * lines.length)/2 + 1);
           if (lines.length === 1) { break; }
         }
         lastRandomNumber = randomNumber;
 
         $('#text').text(lines[randomNumber]);
+        $('#title').text(lines[randomNumber-1]);
       });
     }
   });
