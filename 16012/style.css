@@ -21,6 +21,7 @@ body {
 
 #text {
 	margin-left: 10%;
+	margin-bottom:10%;
 	font-family: courier;
 }
 
@@ -35,7 +36,8 @@ body {
 	font-family: courier;
 	font-size: 1em;
 	border: none;
-	float: center;
+	position: absolute;
+	bottom: 7%;
 }
 
 #butt:hover {
