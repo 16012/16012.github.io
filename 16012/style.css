@@ -76,11 +76,13 @@ body {
 	}
 
 	.text {
-	margin-left: 5%;
+		margin-left: 5%;
+		font-size: 2em;
 	}
 
 	#title {
-	margin-left: 5%;
+		margin-left: 5%;
+		font-size: 4em;
 	}
 
 }
