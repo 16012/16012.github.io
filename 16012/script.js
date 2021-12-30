@@ -30,8 +30,8 @@ $(document.body).ready(function () {
         $('#text1').html(text); 
         $('#text2').html(''); }
       else {
-        $('#text1').html(poem.split('\n').slice(start=0, end=20).join('\n'));
-        $('#text2').html(poem.split('\n').slice(start=21).join('\n')); }
+        $('#text1').html(text.split('\n').slice(start=0, end=21).join('\n'));
+        $('#text2').html(text.split('\n').slice(start=21).join('\n')); }
     }
 
     $('#butt').on('click', next);
