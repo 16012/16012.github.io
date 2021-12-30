@@ -20,10 +20,18 @@ body {
 }
 
 .text {
-	margin-left: 14%;
-	margin-right: 14%;
 	margin-bottom:10%;
 	font-family: courier;
+}
+
+#text1 {
+	margin-left: 14%;
+	margin-right: 5%;
+}
+
+#text2 {
+	margin-left: 5%;
+	margin-right: 14%;
 }
 
 #col1 {
@@ -67,7 +75,7 @@ body {
 		top: 5%;
 	}
 
-	#text {
+	.text {
 	margin-left: 5%;
 	}
 

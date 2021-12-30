@@ -28,10 +28,10 @@ $(document.body).ready(function () {
         $('#title').text(title);
         
         if (text.split('\n').length <= 20) {
-          $('#text1').text(text); }
+          $('#text1').html(text); }
         else {
-          $('#text1').text(poem).split('\n').slice(end=20).join('\n');
-          $('#text2').text(poem).split('\n').slice(start=21).join('\n'); }
+          $('#text1').html(poem).split('\n').slice(end=20).join('\n');
+          $('#text2').html(poem).split('\n').slice(start=21).join('\n'); }
 
       });
     }
