@@ -6,21 +6,23 @@ body {
 #main {
 	background-color: rgba(255,255,255,0.6);
 	position: fixed;
-	width: 70%;
-	height: 80%;
-	top: 10%;
-    left: 15%;
-	padding: 0;
+	width: 90%;
+	left: 5%;
+	height: 90%;
+	top: 5%;
 }
 
 #title {
-	margin-left: 7%;
-	margin-top: 3%;
+	margin-top: 4%;
+	margin-left: 5%;
+	font-size: 4em;
 	font-family: courier;
 }
 
 .text {
 	font-family: courier;
+	margin-left: 5%;
+	font-size: 2em;
 }
 
 #text1 {
@@ -31,18 +33,6 @@ body {
 #text2 {
 	margin-left: 5%;
 	margin-right: 14%;
-}
-
-#col1 {
-	width: 50%;
-	height: 100%;
-	float: left;
-}
-
-#col2 {
-	width: 50%;
-	height: 100%;
-	float: right;
 }
 
 #date {
@@ -65,35 +55,34 @@ body {
 }
 
 
-@media (max-width: 700px){
+@media only screen and (min-width: 768px){
 
 	#main {
-		width: 90%;
-		left: 5%;
-		height: 90%;
-		top: 5%;
+		width: 70%;
+		height: 80%;
+		top: 10%;
+    	left: 15%;
 	}
 
 	.text {
-		margin-left: 5%;
-		font-size: 2em;
+		font-size: 1em;
 	}
 
 	#title {
-		margin-left: 5%;
-		font-size: 4em;
+		margin-left: 7%;
+		font-size: 2em;
 	}
 
 	#col1 {
-		width: 100%;
-		height: auto;
-		float: top;
+		width: 50%;
+		height: 100%;
+		float: left;
 	}
 
 	#col2 {
-		width: 100%;
-		height: auto;
-		float: bottom;
-	}
+		width: 50%;
+		height: 100%;
+		float: right;
+	}	
 
 }
