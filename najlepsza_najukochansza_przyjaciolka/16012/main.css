@@ -1,0 +1,115 @@
+body
+{
+    background-color: rgb(110, 200, 250);
+    font-family: courier, monospace;
+    font-size: 18px;
+    padding-right: 20px;
+}
+#main
+{
+    
+    background-color: white;
+    width: 72%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left:2%;
+    margin-bottom: 50px;
+}
+#title
+{
+    margin-left:-8px;
+    padding-top:5px;
+    margin-top:3px;
+    padding-bottom:5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding: transparent;
+    font-family: OCR A Std, monospace;
+    font-size: 2em;
+}
+#title:hover
+{
+    background-color: transparent;
+    color: transparent;
+}
+#panel
+{
+    float: right;
+    width: 20%;
+    height: 100%;
+    border-left: 1.5px solid blue;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#footer
+{
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#footer:hover
+{
+    color: transparent;
+}
+#section-title
+{
+    margin-left:3%;
+    margin-top:3px;
+}
+.section:hover
+{
+    background-color: blue;
+    color: white;
+}
+.section
+{
+    color: black;
+    text-decoration: transparent;
+}
+.click
+{
+    font-size: 14px;
+    color: black;
+}
+.click:hover
+{
+    color: white;
+}
+.przejdz
+{
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+}
+.przejdz:hover
+{
+    color: blue;
+}
+.photo
+{
+    width: 50%;
+    border: 5px solid black;
+}
+.quote
+{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.rank-link
+{
+    color:black;
+    text-decoration:transparent;
+}
+.rank-link:hover
+{
+    text-decoration: underline;
+}
