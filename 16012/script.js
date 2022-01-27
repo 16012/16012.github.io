@@ -26,7 +26,7 @@ $(document.body).ready(function () {
       
       $('#title').text(title);
       
-      if (window.matchMedia("(min-width: 768px)").matches) {
+      if ($(window).width() > 768) {
         if (text.split('\n').length <= 20) {
           $('#text1').html(text); 
           $('#text2').html(''); }
