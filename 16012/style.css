@@ -16,14 +16,14 @@ body {
 	margin-top: 3%;
 	margin-bottom: 2%;
 	margin-left: 5%;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-family: courier;
 }
 
 .text {
 	font-family: courier;
 	margin-left: 5%;
-	font-size: 1em;
+	font-size: 0.9em;
 }
 
 #col1 {
@@ -64,7 +64,7 @@ body {
 	position: fixed;
 	height: 3%;
 	width: 16%;
-	top: 88%;
+	top: 90%;
 	right: 42%;
 }
 
@@ -116,6 +116,7 @@ body {
 		width: 8%;
 		right: 46%;
 		font-size: 1em;
+		top: 88%;
 	}
 
 }
