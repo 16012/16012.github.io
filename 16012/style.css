@@ -58,12 +58,13 @@ body {
 #butt {
 	background-color: rgba(255,255,255,0.5);
 	font-family: courier;
-	font-size: 1em;
+	font-size: 2em;
 	border: none;
 	position: fixed;
-	width: 8%;
-	top: 90%;
-	right: 46%;
+	height: 3%;
+	width: 16%;
+	top: 88%;
+	right: 42%;
 }
 
 #butt:hover {
@@ -112,6 +113,9 @@ body {
 
 	#butt{
 		top: 80%;
+		width: 8%;
+		right: 46%;
+		font-size: 1em;
 	}
 
 }

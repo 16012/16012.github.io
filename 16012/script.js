@@ -26,18 +26,13 @@ $(document.body).ready(function () {
       
       $('#title').text(title);
       
-      if ($(window).width() > 768) {
-        if (text.split('\n').length <= 20) {
-          $('#text1').html(text); 
-          $('#text2').html(''); }
-        else {
-          $('#text1').html(text.split('\n').slice(start=0, end=21).join('\n'));
-          $('#text2').html(text.split('\n').slice(start=21).join('\n')); }
-      }
-      else {
+      if (text.split('\n').length <= 20) {
         $('#text1').html(text); 
-        $('#text2').html('');
-      }
+        $('#text2').html(''); }
+      else {
+        $('#text1').html(text.split('\n').slice(start=0, end=21).join('\n'));
+        $('#text2').html(text.split('\n').slice(start=21).join('\n')); }
+        
     }
 
     $('#butt').on('click', next);
